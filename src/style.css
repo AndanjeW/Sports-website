@@ -1,0 +1,19 @@
+nav{
+    padding: 20px 0;
+    font-size: 20px;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--default-color);
+}
+nav a:hover,
+nav li.active a{
+    color: var(--secondary-color);
+    transition: all 100ms ease-in-out;
+}
