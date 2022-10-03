@@ -17,3 +17,30 @@ nav li.active a{
     color: var(--secondary-color);
     transition: all 100ms ease-in-out;
 }
+.hero-area{
+    align-items: center;
+    background-image: url(images/skaters.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat}
+.hero-area-wrapper{
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-bottom: 144px;
+    padding-top: 250px;
+    position: relative;
+    text-align: center;
+}
+.hero-area-btn{
+    text-decoration: none;
+    line-height: 1.2;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+#beginner{
+    background-image: url(images/woman\ skater.jpg);
+    width: 100%;
+    height: auto;
+}
