@@ -1,7 +1,20 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+h3{
+    margin-top: 50px;
+    
+}
 
 nav{
     padding: 20px 0;
     font-size: 20px;
+}
+.navbar-image{
+    width: 15%;
+    height: auto;
+    padding: 3px 10px 10px; 
 }
 nav li{
     display: inline;
@@ -60,11 +73,10 @@ footer .contact-box p{
 }
 footer .email-link{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 24px;
     background: #272142;
     border-radius: 4px;
-    color: black;
     padding: 15px 100px;
     margin-top: 30px;
     font-family: var(--default-font);
@@ -84,11 +96,4 @@ footer .social-links a{
 footer .social-links a:hover{
     color: white;
     background: var(--primary-colour);
-}
-footer .about-club{
-    margin: 0 20px;
-    color: var(--primary-colour);
-    padding: 10px 14px;
-    font-size: 14px;
-     
 }
