@@ -70,6 +70,9 @@ nav li.active a{
 .packages-area{
     margin: 100px 0 70px;
 }
+.bookings-section{
+    margin-top: 100px;
+}
 .bookings-section a{
     text-decoration: none;
     color: var(--primary-color);
@@ -79,6 +82,9 @@ nav li.active a{
 }
 .bookings-section img{
     margin-top: 20px;
+}
+footer{
+    margin-top: 100px;
 }
 footer .contact-box{
     background: #FCEBEB;
@@ -94,6 +100,9 @@ footer .company-section a{
 }
 footer .company-section a:hover{
     color: var(--Secondary-color);
+    background: var(--primary-color);
+    padding: 7px;
+    border-radius: 4px;
 }
 footer .email-link{
     text-decoration: none;
